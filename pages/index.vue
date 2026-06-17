@@ -1,7 +1,7 @@
 <template>
   <div class="home-page">
     <section class="hero-section">
-      <img src="/images/calming-hero.jpg" alt="Calming scene" /> <h1>Welcome to Your Counseling Practice</h1>
+      <img src="/images/calming_hero.jpg" alt="Calming scene" /> <h1>Welcome to Your Counseling Practice</h1>
       <p>Finding support for your mental well-being.</p>
       <NuxtLink to="/services" class="cta-button">Learn More About How I Can Help</NuxtLink>
     </section>
@@ -34,7 +34,7 @@ export default {
   text-align: center;
   color: white; /* Text color over the image */
   padding: 100px 20px; /* Adjust padding as needed */
-  background-image: url('/images/calming-hero.jpg'); /* Ensure path is correct */
+  background-image: url('/images/calming_hero.jpg'); /* Ensure path is correct */
   background-size: cover;
   background-position: center;
   /* Add overlay or text shadow for readability */
